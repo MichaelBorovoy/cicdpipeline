@@ -1,5 +1,5 @@
 version: 0.2
-phrases:
+phases:
   pre_build:
     commands:
       - echo Logging into Amazoon ECR started on `date`
