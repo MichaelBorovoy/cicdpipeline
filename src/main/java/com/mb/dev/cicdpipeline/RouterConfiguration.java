@@ -17,6 +17,6 @@ public class RouterConfiguration {
     @Bean
     public RouterFunction<?> helloRouterFunction() {
         return route(GET("/hello"), request -> ok()
-            .body(just(Map.of("Testing", "up and running", "Next testing", "Testing value 2")), Map.class));
+            .body(just(Map.of("Testing", "up and running", "Next testing", "Testing value 3", "Next testing", "Testing value 2")), Map.class));
     }
 }
